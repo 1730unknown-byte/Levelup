@@ -87,7 +87,7 @@ public class MainActivity extends Activity {
         void drawText(Canvas c, String s, float x, float y,
                       float size, int color, Paint.Align align) {
 
-            p.setTextSize(size);
+            p.setTextSize(size * 1.20f);
             p.setColor(color);
             p.setTextAlign(align);
             p.setTypeface(Typeface.create("sans", Typeface.NORMAL));
