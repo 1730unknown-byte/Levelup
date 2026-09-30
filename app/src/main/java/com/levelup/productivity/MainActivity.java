@@ -267,7 +267,7 @@ public class MainActivity extends Activity {
                 float x = getWidth() * (i + 0.5f) / 4f;
 
                 drawText(c, names[i], x, h - 25,
-                        12,
+                        28,
                         page == i ? green : secondary,
                         Paint.Align.CENTER);
             }
